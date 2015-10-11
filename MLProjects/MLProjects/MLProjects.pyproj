@@ -27,10 +27,12 @@
   <ItemGroup>
     <Folder Include="Project1_LinearRegression\" />
     <Folder Include="Project1_LinearRegression\data\" />
+    <Folder Include="Project1_LinearRegression\results\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Project1_LinearRegression\data\train.csv" />
     <Content Include="Project1_LinearRegression\data\validate_and_test.csv" />
+    <Content Include="Project1_LinearRegression\results\max.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
