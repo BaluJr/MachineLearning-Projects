@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a03fe9bb-e784-43a1-88fd-cd0aea167983</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MLProjects.py</StartupFile>
+    <StartupFile>Project1_LinearRegression\Max.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MLProjects.py" />
-    <Compile Include="Project1_LinearRegression\LinearRegression.py" />
+    <Compile Include="Project1_LinearRegression\Max.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Project1_LinearRegression\" />
