@@ -23,9 +23,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="MLProjects.py" />
+    <Compile Include="Project1_LinearRegression\LinearRegression.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Project1_LinearRegression\" />
+    <Folder Include="Project1_LinearRegression\data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Project1_LinearRegression\data\train.csv" />
+    <Content Include="Project1_LinearRegression\data\validate_and_test.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
