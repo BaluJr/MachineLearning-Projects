@@ -1,0 +1,16 @@
+def normalizeDatas(X, Y):
+
+    mu_X = np.mean(X,axis=0)
+    sigma_X = np.std(X,axis=0)
+
+    m, n = X.shape
+    for i in range (0,n):
+        X[:,i] = X[:,i] - mu_X[i]
+        X[:,i]=X[:,i]/sigma_X[i]
+
+    mu_Y = np.mean(Y)
+    sigma_Y = np.std(Y)
+
+    Y =(Y - mu_Y)/sigma_Y
+
+    return np.array(X), np.array(Y), np.array(mu_X), np.array(sigma_X), mu_Y, sigma_Y
