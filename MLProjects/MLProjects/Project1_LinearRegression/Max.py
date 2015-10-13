@@ -2,14 +2,14 @@
 
 # CONFIG ------------------------------------
 IGNORED_DIMENSIONS = [] # Input dimensions which shall be ignored
-REGULATION_Y = 0 # 1 = Lasso, 2 = Ridge
-REGULATION_LAMBDA = 0 # Influence factor of regulation
+REGULATION_Y = 2 # 0 = Least Squares, 1 = Lasso, 2 = Ridge
+REGULATION_LAMBDA = -0.31 # Influence factor of regulation
 
 
 
 
 
-# HELPERS -----------------------------------
+# DATA HELPERS ------------------------------
 def importData (path, validation = False):
     """ Imports the data. 
     Used for trainings and validation datafiles of project1.
@@ -61,18 +61,28 @@ def writeResult (ids, delays, filename):
                  in same order as ids
         filename - the filename including the path
     """
-  
-    #table = array2table(resultData, "VariableNames", {"Id", "Delay"})
-    #file = open(path, 'w+')
-    #writetable(table, path + "result.csv")
 
     if not filename.endswith('.csv'):
         filename += ".csv"  
     file = open(filename, 'w+')
+    file.write("Id,Delay\n")
     for cur in zip(ids, delays):
-        file.write(str(cur[0]) + "\t" + str(cur[1].item(0)) + "\n")
+        file.write(str(cur[0]) + "," + str(cur[1].item(0)) + "\n")
 
 
+
+# ESTIMATORS---------------------------------
+def leastSquares (X, Y):
+    W = np.transpose(X) * X
+    W = np.linalg.inv(W)
+    W = W * np.transpose(X)
+    return W * Y
+
+def ridgeRegression (X, Y):
+    W = np.transpose(X) * X + REGULATION_LAMBDA * np.identity(X.shape[1])
+    W = np.linalg.inv(W)
+    W = W * np.transpose(X)
+    return W * Y 
 
 
 
@@ -82,14 +92,14 @@ if __name__ == "__main__":
     ids, X, Y = importData("Project1_LinearRegression/data/train.csv");
 
     # Determin the minimal Beta Vector by LeastSquaresEstimate
-    W = np.transpose(X) * X
-    W = np.linalg.inv(W)
-    W = W * np.transpose(X)
-    W = W * Y
+    if REGULATION_Y == 0 :
+        B = leastSquares(X, Y)
+    elif REGULATION_Y == 2 :
+        B = ridgeRegression(X, Y)
 
     # Predict the result
     idsPredict, XPredict = importData("Project1_LinearRegression/data/validate_and_test.csv", validation = True)
-    YPredict = XPredict * W
+    YPredict = XPredict * B
 
     # Output the result
     writeResult(idsPredict, YPredict, "Project1_LinearRegression/results/max.csv");
