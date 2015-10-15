@@ -1,11 +1,13 @@
 ﻿import numpy as np
+from normalizeDatas import normalizeDatas
+
 
 # CONFIG ------------------------------------
 IGNORED_DIMENSIONS = [] # Input dimensions which shall be ignored
-REGULATION_Y = 2 # 0 = Least Squares, 1 = Lasso, 2 = Ridge
-REGULATION_LAMBDA = -0.31 # Influence factor of regulation
-
-
+REGULATION_Y = 0 # 0 = Least Squares, 1 = Lasso, 2 = Ridge
+REGULATION_LAMBDA = 0 #-0.31 # Influence factor of regulation
+INCLUDE_BIAS = True # this option activates the bias/intercerpt. Should be of course always activated.
+NORMALIZE = True # when this option is activated the input data is normalized
 
 
 
@@ -90,6 +92,12 @@ def ridgeRegression (X, Y):
 if __name__ == "__main__":
     # Import data
     ids, X, Y = importData("Project1_LinearRegression/data/train.csv");
+    
+    if NORMALIZE:
+        X, Y, a,b,c,d = normalizeDatas(X,Y)
+
+    if (INCLUDE_BIAS):
+        X = np.c_[X, np.ones(X.shape[0])]
 
     # Determin the minimal Beta Vector by LeastSquaresEstimate
     if REGULATION_Y == 0 :
@@ -99,7 +107,14 @@ if __name__ == "__main__":
 
     # Predict the result
     idsPredict, XPredict = importData("Project1_LinearRegression/data/validate_and_test.csv", validation = True)
+    if (INCLUDE_BIAS):
+        XPredict = np.c_[XPredict, np.ones(XPredict.shape[0])]
+
     YPredict = XPredict * B
 
+    
+    if NORMALIZE:
+        XPredict, YPredict, a,b,c,d = normalizeDatas(XPredict, YPredict)
+
     # Output the result
-    writeResult(idsPredict, YPredict, "Project1_LinearRegression/results/max.csv");
+    writeResult(idsPredict, YPredict, "Project1_LinearRegression/results/results.csv");
