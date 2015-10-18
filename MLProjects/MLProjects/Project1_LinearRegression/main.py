@@ -4,11 +4,11 @@ from normalizeDatas import normalizeDatas
 
 # CONFIG ------------------------------------
 IGNORED_DIMENSIONS = [] # Input dimensions which shall be ignored
-REGULATION_Y = 0 # 0 = Least Squares, 1 = Lasso, 2 = Ridge
-REGULATION_LAMBDA = 0 #-0.31 # Influence factor of regulation
+DEGREE_OF_POLYNOMIAL_REGRESSION = 1 # The degree of the highest polynom of the polynomial regression
+REGULATION_Y = 2 # 0 = Least Squares, 1 = Lasso, 2 = Ridge
+REGULATION_LAMBDA = 1 # Influence factor of regulation
 INCLUDE_BIAS = True # this option activates the bias/intercerpt. Should be of course always activated.
 NORMALIZE = True # when this option is activated the input data is normalized
-
 
 
 # DATA HELPERS ------------------------------
@@ -96,8 +96,13 @@ if __name__ == "__main__":
     if NORMALIZE:
         X, Y, a,b,c,d = normalizeDatas(X,Y)
 
+    X_basic = X
+    for i in xrange(2,DEGREE_OF_POLYNOMIAL_REGRESSION+1):
+        X = np.c_[X,np.power(X_basic,i)]
+
     if (INCLUDE_BIAS):
-        X = np.c_[X, np.ones(X.shape[0])]
+        X = np.c_[np.ones(X.shape[0]),X]
+
 
     # Determin the minimal Beta Vector by LeastSquaresEstimate
     if REGULATION_Y == 0 :
@@ -107,14 +112,19 @@ if __name__ == "__main__":
 
     # Predict the result
     idsPredict, XPredict = importData("Project1_LinearRegression/data/validate_and_test.csv", validation = True)
+    X_basic = XPredict
+    for i in xrange(2,DEGREE_OF_POLYNOMIAL_REGRESSION+1):
+        XPredict = np.c_[XPredict, np.power(X_basic,i)]
     if (INCLUDE_BIAS):
-        XPredict = np.c_[XPredict, np.ones(XPredict.shape[0])]
+        XPredict = np.c_[np.ones(XPredict.shape[0]),XPredict]
 
+        
     YPredict = XPredict * B
 
     
     if NORMALIZE:
         XPredict, YPredict, a,b,c,d = normalizeDatas(XPredict, YPredict)
+
 
     # Output the result
     writeResult(idsPredict, YPredict, "Project1_LinearRegression/results/results.csv");
