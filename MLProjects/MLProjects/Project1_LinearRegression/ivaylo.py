@@ -38,7 +38,7 @@ ignored_dimensions = [i for i in range(0, 14) if fs.get_support()[i]==False]
 
 scalerX = StandardScaler().fit(X)
 X = scalerX.transform(X)
-X = transform_data(X)
+#X = transform_data(X)
 
 # Create a list of classifier candidates
 clf_list = [linear_model.LassoLarsCV(), linear_model.LinearRegression(), DecisionTreeRegressor(max_depth=6),
@@ -70,6 +70,6 @@ ids = test_data[:, 0]
 X_test = test_data[:, 1:15]
 X_test = np.delete(X_test, ignored_dimensions, axis=1)
 X_test = scalerX.transform(X_test)
-X_test = transform_data(X_test)
+#X_test = transform_data(X_test)
 y_test = best_classifier.predict(X_test)
 pd.DataFrame({'Id': ids.astype(int), 'Delay': y_test}).to_csv("out.csv", index=False, columns=['Id', 'Delay'])
