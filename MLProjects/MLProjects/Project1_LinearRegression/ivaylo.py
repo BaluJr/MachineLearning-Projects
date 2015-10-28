@@ -4,6 +4,10 @@ from sklearn import linear_model, cross_validation, svm, ensemble
 from sklearn.metrics import mean_squared_error
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.preprocessing import StandardScaler
+from sklearn import ensemble
+import itertools
+from sklearn import gaussian_process
+from sklearn.svm import SVR
 
 # Include more sophisticated function to the input
 def transform_data(features):
@@ -17,13 +21,16 @@ def transform_data(features):
 # Adds additional degrees to the data.
 def add_degrees(data):
     transformed = data
-    for i in range(2, 8):
+    for i in range(4, 10):
         new_degree = np.power(data, i)
         transformed = np.concatenate([transformed, new_degree], axis=1)
     return transformed
 
+
+
+# MAIN -----------------------------------------------------------
 # Load the training data
-file_data = open("data/train.csv","rb")
+file_data = open("Project1_LinearRegression/data/train.csv","rb")
 data = np.loadtxt(file_data, delimiter=",")
 
 # Extract ids, target and characteristics
@@ -38,33 +45,54 @@ ignored_dimensions = [i for i in range(0, 14) if fs.get_support()[i]==False]
 
 scalerX = StandardScaler().fit(X)
 X = scalerX.transform(X)
+
+
 #X = transform_data(X)
 
-# Create a list of classifier candidates
-clf_list = [linear_model.LassoLarsCV(), linear_model.LinearRegression(), DecisionTreeRegressor(max_depth=6),
-                linear_model.RidgeCV(), linear_model.ElasticNetCV(), ensemble.RandomForestClassifier(),
-                DecisionTreeRegressor(max_depth=5), DecisionTreeRegressor(max_depth=7)]
+# Create a list of regressor candidates
+clf_list = [ensemble.RandomForestClassifier()]
+                #DecisionTreeRegressor()
+                #linear_model.LassoLarsCV(), linear_model.LinearRegression(), DecisionTreeRegressor(max_depth=6),
+                #linear_model.RidgeCV(), linear_model.ElasticNetCV(), , 
+                #linear_model.BayesianRidge(compute_score=True), ensemble.ExtraTreesRegressor(n_estimators=10,random_state=42)]
 
-best_classifier, best_score = None, 2000
+# Create a list of potential paramet
+list_of_parameter_sets = np.array([
+                   ['max_depth', [6,7,8,9]],
+                   ['min_samples_split', np.linspace(1, 3, num=3)],
+                   ['min_samples_leaf', np.linspace(6, 13, num=7)],
+                   ['min_weight_fraction_leaf', np.linspace(0., .4, num=4)],
+                   ['max_features', [0.7, 0.8, 0.9]]
+                 ],dtype=object)
+best_classifier, best_score, best_params = None, 2000, None
 
-# evaluate classifiers with 6-fold cross validation, retain the best one
+# evaluate regressors with 6-fold cross validation, retain the best one
 for clf in clf_list:
-    clf.fit(X, y)
-    print 'Train error for ', clf, ': ', np.sqrt(mean_squared_error(clf.predict(X), y))
+    # go through all parameter sets
+    for parameter_set in list(itertools.product( *list_of_parameter_sets[:,1]) ):
+        # set the parameters
+        for i,parameter in enumerate(parameter_set):
+            clf.set_params(**{list_of_parameter_sets[:,0][i]:parameter})
 
-    test_error = np.mean(np.sqrt(np.abs(cross_validation.cross_val_score(clf, X,
-                                                                         y, cv=6, scoring='mean_squared_error'))))
-    print 'Test error: ', test_error
+        # Do the test with the current parameter configuration
+        clf.fit(X, y)    
+        test_error = np.mean(np.sqrt(np.abs(cross_validation.cross_val_score(clf, X, y, cv=6, scoring='mean_squared_error'))))
+        if test_error < best_score:
+            best_score, best_classifier, best_params = test_error, clf, parameter_set
+   
+    # Output for regressor
+    #print 'Train error for ', clf, ': ', np.sqrt(mean_squared_error(clf.predict(X), y))
+    print '\n', clf, ':\n'
+    #print 'Parameters: ', zip(list_of_parameter_sets[:,0], best_params), '\n'
+    print 'Test error: ', test_error, '\n\n'
 
-    if test_error < best_score:
-        best_score, best_classifier = test_error, clf
 
-# Predict with the best classifiers on test data and write them to out.csv
-print "Best classifier is " + str(best_classifier) + " with test error: " + str(best_score)
+# Predict with the best regressor on test data and write them to out.csv
+print "\n\n###################\nBest classifier is " + str(best_classifier) + " with test error: " + str(best_score) + "\n"
 best_classifier.fit(X, y)
 
 # Read test and validation data
-file_test_data = open("data/validate_and_test.csv","rb")
+file_test_data = open("Project1_LinearRegression/data/validate_and_test.csv","rb")
 test_data = np.loadtxt(file_test_data, delimiter=",")
 ids = test_data[:, 0]
 X_test = test_data[:, 1:15]
