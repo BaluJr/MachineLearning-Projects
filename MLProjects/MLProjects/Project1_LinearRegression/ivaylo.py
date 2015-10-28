@@ -1,13 +1,15 @@
-﻿import numpy as np
+import numpy as np
 import pandas as pd
 from sklearn import linear_model, cross_validation, svm, ensemble
 from sklearn.metrics import mean_squared_error
 from sklearn.tree import DecisionTreeRegressor
+<<<<<<< HEAD
 from sklearn.preprocessing import StandardScaler
 from sklearn import ensemble
 import itertools
 from sklearn import gaussian_process
 from sklearn.svm import SVR
+from sklearn.preprocessing import MinMaxScaler
 
 # Include more sophisticated function to the input
 def transform_data(features):
@@ -24,9 +26,16 @@ def add_degrees(data):
     for i in range(4, 10):
         new_degree = np.power(data, i)
         transformed = np.concatenate([transformed, new_degree], axis=1)
+    transformed = np.insert(transformed, 0, values=1, axis=1)
     return transformed
 
-
+# Adds combination of features
+def combine(data):
+    combinations = data
+    for i in range (0, 1):
+        new_combination = data * data[i]
+        combinations = np.concatenate([combinations, new_combination], axis=1)
+    return combinations
 
 # MAIN -----------------------------------------------------------
 # Load the training data
@@ -36,6 +45,7 @@ data = np.loadtxt(file_data, delimiter=",")
 # Extract ids, target and characteristics
 ids = data[:, 0]
 y = data[:, 15]
+y = np.log(y)
 data = data[:, 1:15]
 
 from sklearn.feature_selection import *
@@ -43,18 +53,28 @@ fs=SelectKBest(score_func=f_regression,k=5)
 X = fs.fit_transform(data, y)
 ignored_dimensions = [i for i in range(0, 14) if fs.get_support()[i]==False]
 
-scalerX = StandardScaler().fit(X)
+scalerX = MinMaxScaler().fit(X)
 X = scalerX.transform(X)
 
 
 #X = transform_data(X)
 
 # Create a list of regressor candidates
-clf_list = [ensemble.RandomForestClassifier()]
+#clf_list = [ensemble.RandomForestClassifier()]
                 #DecisionTreeRegressor()
                 #linear_model.LassoLarsCV(), linear_model.LinearRegression(), DecisionTreeRegressor(max_depth=6),
                 #linear_model.RidgeCV(), linear_model.ElasticNetCV(), , 
                 #linear_model.BayesianRidge(compute_score=True), ensemble.ExtraTreesRegressor(n_estimators=10,random_state=42)]
+
+
+clf_list = [linear_model.LassoLarsCV(), linear_model.LinearRegression(), DecisionTreeRegressor(max_depth=6),
+                linear_model.RidgeCV(), linear_model.ElasticNetCV(), ensemble.RandomForestRegressor(max_depth=1),
+                DecisionTreeRegressor(max_depth=5), DecisionTreeRegressor(max_depth=7),
+            ensemble.RandomForestRegressor(max_depth=2), ensemble.RandomForestRegressor(max_depth=3),
+            ensemble.RandomForestRegressor(max_depth=4), ensemble.RandomForestRegressor(max_depth=5),
+            ensemble.RandomForestRegressor(max_depth=6), ensemble.RandomForestRegressor(max_depth=7),
+            ensemble.RandomForestRegressor(max_depth=8), ensemble.RandomForestRegressor(max_depth=9),
+            ensemble.RandomForestRegressor(max_depth=10), ensemble.RandomForestRegressor(max_depth=11)]
 
 # Create a list of potential paramet
 list_of_parameter_sets = np.array([
@@ -100,4 +120,6 @@ X_test = np.delete(X_test, ignored_dimensions, axis=1)
 X_test = scalerX.transform(X_test)
 #X_test = transform_data(X_test)
 y_test = best_classifier.predict(X_test)
+y_test = np.exp(y_test)
 pd.DataFrame({'Id': ids.astype(int), 'Delay': y_test}).to_csv("out.csv", index=False, columns=['Id', 'Delay'])
+
