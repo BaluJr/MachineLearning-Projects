@@ -28,6 +28,17 @@ if __name__ == "__main__":
     y = np.log(y)
     X = data[:, 1:15]
 
+    #log all the x values, which are 2 based
+    dims_to_log = [7,8,10,11,12]
+    for dim in dims_to_log:
+        X[:,dim] = np.log2(X[:,dim])
+    #X[:,0] = X[:,0]/2
+    #X[:,1] = X[:,1]/8
+    #X[:,2] = X[:,2]/8
+    #X[:,3] = X[:,3]/8
+    #X[:,4] = X[:,4]/8
+    #X[:,5] = X[:,5]/2   
+    #X[:,9] = X[:,9]/8
 
     # Create the pipeline
     pipeline = Pipeline([("feature_selection", SelectKBest(score_func=f_regression)),
