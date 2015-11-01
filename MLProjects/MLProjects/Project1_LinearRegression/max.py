@@ -14,6 +14,8 @@ from sklearn.tree import DecisionTreeRegressor
 # evaluation
 from sklearn.metrics import mean_squared_error
 from sklearn.decomposition import PCA
+#output
+import pandas as pd
 
 
 
@@ -32,13 +34,7 @@ if __name__ == "__main__":
     dims_to_log = [7,8,10,11,12]
     for dim in dims_to_log:
         X[:,dim] = np.log2(X[:,dim])
-    #X[:,0] = X[:,0]/2
-    #X[:,1] = X[:,1]/8
-    #X[:,2] = X[:,2]/8
-    #X[:,3] = X[:,3]/8
-    #X[:,4] = X[:,4]/8
-    #X[:,5] = X[:,5]/2   
-    #X[:,9] = X[:,9]/8
+
 
     # Create the pipeline
     pipeline = Pipeline([("feature_selection", SelectKBest(score_func=f_regression)),
@@ -49,14 +45,14 @@ if __name__ == "__main__":
     # Create a list of potential parameters
     # see http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
     parameters = {
-        'feature_selection__k': [6],
-        'regression__n_estimators': [int(i) for i in np.linspace(38,46, 5)],
+        'feature_selection__k': [6,7],
+        'regression__n_estimators': [int(i) for i in np.linspace(42,46, 2)],
         'regression__criterion': ["mse"],
         'regression__max_depth': [6],
         'regression__max_features': [0.9],
-        'regression__min_samples_split': [3],
+        'regression__min_samples_split': [3,4],
         'regression__min_samples_leaf': [3,4,5],
-        'regression__min_weight_fraction_leaf': np.linspace(0.008, 0.012, num=5),
+        'regression__min_weight_fraction_leaf': np.linspace(0.011, 0.011, num=1),
         'regression__max_leaf_nodes': [None],
         'regression__bootstrap': [True],
         'regression__oob_score': [False],
@@ -78,13 +74,12 @@ if __name__ == "__main__":
 
 
     # Do the prediction of the test and validation data with best configuration
-    #file_test_data = open("Project1_LinearRegression/data/validate_and_test.csv","rb")
-    #test_data = np.loadtxt(file_test_data, delimiter=",")
-    #ids = test_data[:, 0]
-    #X_test = test_data[:, 1:15]
-    #X_test = np.delete(X_test, ignored_dimensions, axis=1)
-    #X_test = scalerX.transform(X_test)
-    #X_test = poly.transform(X)
-    #y_test = clf.predict(X_test)
-    #y_test = np.exp(y_test)
-    #pd.DataFrame({'Id': ids.astype(int), 'Delay': y_test}).to_csv("bestout.csv", index=False, columns=['Id', 'Delay'])
+    file_test_data = open("Project1_LinearRegression/data/validate_and_test.csv","rb")
+    test_data = np.loadtxt(file_test_data, delimiter=",")
+    ids = test_data[:, 0]
+    X_test = test_data[:, 1:15]
+    for dim in dims_to_log:
+        X_test[:,dim] = np.log2(X_test[:,dim])
+    y_test = pipeline.predict(X_test)
+    y_test = np.exp(y_test)
+    pd.DataFrame({'Id': ids.astype(int), 'Delay': y_test}).to_csv("bestout.csv", index=False, columns=['Id', 'Delay'])
