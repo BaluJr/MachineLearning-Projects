@@ -1,9 +1,8 @@
-import numpy as np
+﻿import numpy as np
 import pandas as pd
 from sklearn import linear_model, cross_validation, svm, ensemble
 from sklearn.metrics import mean_squared_error
 from sklearn.tree import DecisionTreeRegressor
-<<<<<<< HEAD
 from sklearn.preprocessing import StandardScaler
 from sklearn import ensemble
 import itertools
