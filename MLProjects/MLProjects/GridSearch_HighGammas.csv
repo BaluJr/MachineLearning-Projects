@@ -1,0 +1,501 @@
+
+0.907160493827 --- {'classify__C': 100.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.907160493827 --- {'classify__C': 100.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.904691358025 --- {'classify__C': 200.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.904691358025 --- {'classify__C': 200.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.903703703704 --- {'classify__C': 300.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.903703703704 --- {'classify__C': 300.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.903209876543 --- {'classify__C': 400.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.903209876543 --- {'classify__C': 400.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.903209876543 --- {'classify__C': 700.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.903209876543 --- {'classify__C': 700.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902716049383 --- {'classify__C': 200.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902716049383 --- {'classify__C': 200.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902716049383 --- {'classify__C': 300.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902716049383 --- {'classify__C': 300.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902716049383 --- {'classify__C': 600.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902716049383 --- {'classify__C': 600.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902222222222 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.902222222222 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.902222222222 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.902222222222 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.902222222222 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.902222222222 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.902222222222 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.902222222222 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.902222222222 --- {'classify__C': 100.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.902222222222 --- {'classify__C': 100.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.901728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.901728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.901728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.901728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901728395062 --- {'classify__C': 100.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 100.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 200.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 200.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 500.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 500.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 500.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901728395062 --- {'classify__C': 500.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.901234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.901234567901 --- {'classify__C': 100.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 100.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 600.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 600.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 800.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 800.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 900.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 900.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 1000.0, 'classify__tol': 1e-05, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.901234567901 --- {'classify__C': 1000.0, 'classify__tol': 1e-08, 'classify__gamma': 1, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.900740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.900740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.900740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.900740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.900740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.900740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.900740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.900740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.900740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.900740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.900740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.900740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.900740740741 --- {'classify__C': 300.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.900740740741 --- {'classify__C': 300.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.90024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.90024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.90024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.90024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.90024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.90024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.90024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.90024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.90024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.90024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.90024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.90024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.90024691358 --- {'classify__C': 400.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.90024691358 --- {'classify__C': 400.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.90024691358 --- {'classify__C': 700.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.90024691358 --- {'classify__C': 700.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.90024691358 --- {'classify__C': 900.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.90024691358 --- {'classify__C': 900.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.89975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.89975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.899259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.899259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.899259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.899259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 5}
+0.899259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.899259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.899259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.899259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.899259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.899259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.899259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.899259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 2, 'classify__gamma': 3}
+0.899259259259 --- {'classify__C': 100.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.899259259259 --- {'classify__C': 100.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898765432099 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.898765432099 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 4}
+0.898765432099 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.898765432099 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 2, 'classify__gamma': 2}
+0.898765432099 --- {'classify__C': 200.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898765432099 --- {'classify__C': 200.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898765432099 --- {'classify__C': 800.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898765432099 --- {'classify__C': 800.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898765432099 --- {'classify__C': 1000.0, 'classify__tol': 1e-05, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898765432099 --- {'classify__C': 1000.0, 'classify__tol': 1e-08, 'classify__gamma': 2, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898271604938 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.898271604938 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.898271604938 --- {'classify__C': 600.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.898271604938 --- {'classify__C': 600.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.897283950617 --- {'classify__C': 400.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.897283950617 --- {'classify__C': 400.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.897283950617 --- {'classify__C': 500.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.897283950617 --- {'classify__C': 500.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.896296296296 --- {'classify__C': 300.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.896296296296 --- {'classify__C': 300.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.895802469136 --- {'classify__C': 700.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.895802469136 --- {'classify__C': 700.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.895802469136 --- {'classify__C': 800.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.895802469136 --- {'classify__C': 800.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.894320987654 --- {'classify__C': 200.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.894320987654 --- {'classify__C': 200.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 300.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 300.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 400.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 400.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 500.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 500.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 900.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 900.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 1000.0, 'classify__tol': 1e-05, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.893333333333 --- {'classify__C': 1000.0, 'classify__tol': 1e-08, 'classify__gamma': 3, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.892345679012 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.892345679012 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 2, 'classify__gamma': 1}
+0.891358024691 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.891358024691 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.890864197531 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.890864197531 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.89037037037 --- {'classify__C': 500.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.89037037037 --- {'classify__C': 500.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.89037037037 --- {'classify__C': 600.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.89037037037 --- {'classify__C': 600.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.889382716049 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.889382716049 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.889382716049 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.889382716049 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.889382716049 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.889382716049 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.889382716049 --- {'classify__C': 400.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.889382716049 --- {'classify__C': 400.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.889382716049 --- {'classify__C': 800.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.889382716049 --- {'classify__C': 800.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.888888888889 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.888888888889 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.888888888889 --- {'classify__C': 900.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.888888888889 --- {'classify__C': 900.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.888888888889 --- {'classify__C': 1000.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.888888888889 --- {'classify__C': 1000.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.888395061728 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.888395061728 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.888395061728 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.888395061728 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.888395061728 --- {'classify__C': 600.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.888395061728 --- {'classify__C': 600.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.887901234568 --- {'classify__C': 700.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.887901234568 --- {'classify__C': 700.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.887407407407 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.887407407407 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.887407407407 --- {'classify__C': 800.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.887407407407 --- {'classify__C': 800.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.886913580247 --- {'classify__C': 700.0, 'classify__tol': 1e-05, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.886913580247 --- {'classify__C': 700.0, 'classify__tol': 1e-08, 'classify__gamma': 4, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.886419753086 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.886419753086 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.886419753086 --- {'classify__C': 900.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.886419753086 --- {'classify__C': 900.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.885925925926 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.885925925926 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.885432098765 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.885432098765 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.885432098765 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.885432098765 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.885432098765 --- {'classify__C': 1000.0, 'classify__tol': 1e-05, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.885432098765 --- {'classify__C': 1000.0, 'classify__tol': 1e-08, 'classify__gamma': 5, 'classify__cache_size': 4096, 'classify__kernel': 'rbf'}
+0.884938271605 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884938271605 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884938271605 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.884938271605 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.884444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.883456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.883456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.883456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.883456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.882962962963 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.882962962963 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.882962962963 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.882962962963 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 4}
+0.882962962963 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.882962962963 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.882962962963 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.882962962963 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.881975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.881975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.881975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.881975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 5}
+0.881975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.881975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 3}
+0.881481481481 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.881481481481 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.88 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.88 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.87950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.87950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 2}
+0.87950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.87950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.879012345679 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.879012345679 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.878518518519 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.878518518519 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.875555555556 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.875555555556 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.872098765432 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.872098765432 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.871604938272 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.871604938272 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.868148148148 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.868148148148 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.867654320988 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.867654320988 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.867160493827 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.867160493827 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.866666666667 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.866666666667 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.866666666667 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.866666666667 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.866172839506 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.866172839506 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.865679012346 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.865679012346 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.863209876543 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.863209876543 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.863209876543 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.863209876543 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.863209876543 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.863209876543 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.862716049383 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.862716049383 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.861728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.861728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.861728395062 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.861728395062 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.861234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.861234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.861234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.861234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.861234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.861234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.861234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.861234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.861234567901 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.861234567901 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.860740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.860740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.860740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.860740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.860740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.860740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.860740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.860740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.860740740741 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.860740740741 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.86024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.86024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.86024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.86024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.86024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.86024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.86024691358 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.86024691358 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.85975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.85975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.85975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.85975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.85975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.85975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.85975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.85975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.85975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.85975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.859259259259 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.859259259259 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 3}
+0.858765432099 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.858765432099 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 3, 'classify__gamma': 1}
+0.858765432099 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.858765432099 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 4}
+0.858765432099 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.858765432099 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.858271604938 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.858271604938 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.858271604938 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.858271604938 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.857777777778 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.857777777778 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 5}
+0.857777777778 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.857777777778 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.855308641975 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.855308641975 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.853333333333 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.853333333333 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 2}
+0.849382716049 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.849382716049 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.848395061728 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.848395061728 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.847407407407 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.847407407407 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.846913580247 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.846913580247 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.844444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.844444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.843950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.843950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.843950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.843456790123 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.843456790123 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.842962962963 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.842962962963 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.842469135802 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.842469135802 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.841975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.841975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.841975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.841975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.841975308642 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.841975308642 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.841481481481 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.841481481481 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.841481481481 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.841481481481 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.840987654321 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.840987654321 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.840987654321 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.840987654321 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.84049382716 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.84049382716 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.84049382716 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.84049382716 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.84 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.84 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.84 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.84 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.83950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.83950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 3}
+0.83950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.83950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.83950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.83950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.83950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.83950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.83950617284 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.83950617284 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.839012345679 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.839012345679 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.839012345679 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.839012345679 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.839012345679 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.839012345679 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.839012345679 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.839012345679 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 4}
+0.838518518519 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.838518518519 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.837530864198 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.837530864198 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.837530864198 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.837530864198 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.837530864198 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.837530864198 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.837037037037 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.837037037037 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.837037037037 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.837037037037 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.837037037037 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.837037037037 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.836543209877 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.836543209877 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.835555555556 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.835555555556 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.835061728395 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.835061728395 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 5}
+0.830617283951 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.830617283951 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.830617283951 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.830617283951 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.825185185185 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.825185185185 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 2}
+0.818765432099 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.818765432099 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 4, 'classify__gamma': 1}
+0.811358024691 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.811358024691 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 1000.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.80987654321 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.80987654321 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 900.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.808395061728 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.808395061728 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 800.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.806419753086 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.806419753086 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 700.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.804444444444 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.804444444444 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 600.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.80049382716 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.80049382716 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 500.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.797530864198 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.797530864198 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 400.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.793086419753 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.793086419753 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 300.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.787160493827 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.787160493827 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 200.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.777777777778 --- {'classify__tol': 1e-05, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 1}
+0.777777777778 --- {'classify__tol': 1e-08, 'classify__cache_size': 4096, 'classify__kernel': 'poly', 'classify__C': 100.0, 'classify__degree': 5, 'classify__gamma': 1}
