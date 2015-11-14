@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
 
     # Create the pipeline
-    pipeline = Pipeline([#("feature_selection", SelectKBest(score_func=f_regression)), #http://scikit-learn.org/stable/auto_examples/feature_stacker.html#example-feature-stacker-py
+    pipeline = Pipeline([#("feature_selection", SelectKBest(score_func=f_regression)), #not working and not interesting
                          ("scale", MinMaxScaler()), #standardscaler does not work
                          ("classify", SVC())])
 
@@ -42,7 +42,7 @@ if __name__ == "__main__":
       #{ 'classify__kernel': ['poly'],'classify__degree': [2,3,4,5]},
       { 'classify__kernel': ['rbf'] },
      ]
-    # Common parameters
+    # Mix common parameters into all grids
     for param in param_grid: 
         param.update({
             #'feature_selection__k': [7],
@@ -51,12 +51,12 @@ if __name__ == "__main__":
             'classify__tol': [1,0.1,1e-2,1e-3,1e-4],
             'classify__cache_size': [4096] 
         })
-    best_params = {'classify__C': [72.222222222222229], 'classify__tol': [0.01,0.005,0.015], 'classify__gamma': [1], 'classify__cache_size': [4096], 'classify__kernel': ['rbf']}
-
+    
     # Grid search to find best parameters
     gs = GridSearchCV(pipeline, param_grid, verbose=2, refit=True, cv=5, n_jobs = -1)
     gs.fit(X, y)
     pipeline.set_params(**gs.best_params_)
+    
     # Output results
     gridSearchOverviewfile = open(gridSearchOverviewFile, 'w+')
     scores = gs.grid_scores_
