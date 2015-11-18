@@ -1,0 +1,50 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[pdftex]{hyperref}
+
+% Lengths and indenting
+\setlength{\textwidth}{16.5cm}
+\setlength{\marginparwidth}{1.5cm}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.15cm}
+\setlength{\textheight}{22cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{Machine Learning 2015: Project 2 - Classification Report}
+\author{Ivaylo Toskov \\ itoskov@student.ethz.ch \and Maximilian Wurm \\ mwurm@student.ethz.ch \and 
+	Martina Rivizzigno \\ rimartin@student.ethz.ch\\}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Experimental Protocol}
+This is the protocol of the group "I don't care".
+
+\section{Tools}
+For our approach we used Python in combination with numpy and the machine learning library "scikit-learn". Like this, Python offers an API comparable to Matlab.
+
+\section{Algorithm}
+After trying out support vector machines with different linear and RBF kernel, we opted for an ensable classifier. Using multiple learning algorithms enables a better predictive performance than it could be obtain from any of the single algorithms in the ensable.
+
+We selecet two classifier, suport vector with RBF kernel and random forest, and let them vote for a class. This approach is called bagging. If the two classifiers agree on the label of a input, the class is set. If they disagree, the entry is put in the doubt class.
+
+Training two classifier over the same data set may seem to lead to overfitting. Overfitting derives from an high variance but actually bagging reduces the overall variance of the classifier by avaraging. 
+
+\section{Features}
+Features are preprocessed performing MinMax Normalization. 
+
+\section{Parameters}
+Scikit-learn GridSearchCV function runs a cross validation based, fitting-performance test over all combinations of possible parameters, which are given in a separate list. The cross validation makes it possible to immediately estimate the precision of a certain configuration. Two separete grid searches were performed on the the support vector and random forest classifiers. 
+
+\section{Lessons Learned} 
+
+
+\end{document}
