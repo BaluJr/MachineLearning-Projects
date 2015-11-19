@@ -32,19 +32,18 @@ This is the protocol of the group "I don't care".
 For our approach we used Python in combination with numpy and the machine learning library "scikit-learn". Like this, Python offers an API comparable to Matlab.
 
 \section{Algorithm}
-After trying out support vector machines with different linear and RBF kernel, we opted for an ensable classifier. Using multiple learning algorithms enables a better predictive performance than it could be obtain from any of the single algorithms in the ensable.
+After trying out support vector machines with different linear and RBF kernels, we opted for to use an ensemble approach. Using multiple learning algorithms together, enables a better predictive performance than it could be obtained from using any of the single algorithms on its own. Reasonable different classifiers for the task where the RandomForest and the SVC classifier. Since they base on completly different approaches, their results should be completly independent. 
+This approach of taking into account multiple weaker classifiers is called bagging. Training two classifier over the same data set may seem to lead to overfitting. Overfitting derives from an high variance but actually bagging reduces the overall variance of the classifier by avaraging. 
 
-We selecet two classifier, suport vector with RBF kernel and random forest, and let them vote for a class. This approach is called bagging. If the two classifiers agree on the label of a input, the class is set. If they disagree, the entry is put in the doubt class.
-
-Training two classifier over the same data set may seem to lead to overfitting. Overfitting derives from an high variance but actually bagging reduces the overall variance of the classifier by avaraging. 
+Of course it is necessary to have a third classifier, which turns the balance when the two first classifiers vote against each other. In our case we have chosen the  GradientBoostingClassifier of scikit-learn. It is itself a boosting and therefore an bagging method. Boosting is a special form of bagging, where the classifiers are called successively. The output of the first classifier is then used as input for the next classifier. This may accelerate the convergence dramatically. 
 
 \section{Features}
-Features are preprocessed performing MinMax Normalization. 
+Having only 7 different dimensions, it proved to be true, that a feature selection does not make sense, since all dimensions contain information. As a result, normalization is the only preprocessing step applied to the input data. While the StandardScaler did not perform well the normalization, taking into account Min and Max of the data improved the results significantly. 
 
 \section{Parameters}
-Scikit-learn GridSearchCV function runs a cross validation based, fitting-performance test over all combinations of possible parameters, which are given in a separate list. The cross validation makes it possible to immediately estimate the precision of a certain configuration. Two separete grid searches were performed on the the support vector and random forest classifiers. 
+Scikit-learn GridSearchCV function runs a cross validation based, fitting-performance test over all combinations of possible parameters, which are given in a separate list. The cross validation makes it possible to immediately estimate the precision of a certain configuration. Separete grid searches were performed for each of the classifiers, finally used within the ensemble method. 
 
 \section{Lessons Learned} 
-
+It became obvious, that tweaking a single classifier, at some points reached its limit, sothat no further progress was achievable by tweaking the parameters. In those cases the combination of multiple classifiers turned out to be the best way to improve the results further. 
 
 \end{document}
