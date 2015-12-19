@@ -1,0 +1,59 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[pdftex]{hyperref}
+
+% Lengths and indenting
+\setlength{\textwidth}{16.5cm}
+\setlength{\marginparwidth}{1.5cm}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.15cm}
+\setlength{\textheight}{22cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\title{Machine Learning 2015: Project 3 - Feature Engineering}
+\author{Ivaylo Toskov \\ itoskov@student.ethz.ch \and Maximilian Wurm \\ mwurm@student.ethz.ch \and 
+	Martina Rivizzigno \\ rimartin@student.ethz.ch\\}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\section*{Experimental Protocol}
+	This is the protocol of the group "I don't care".
+	
+	\section{Tools}
+	In this project we splitted the work into a feature extraction and a classfication part.
+	On the one hand we used Malab	for the image processing and feature extraction. 
+	On the other hand, python together with numpy and the machine learning library "scikit-learn" was used for the subsequent classification.
+
+	
+	\section{Approach}
+	Like mentioned above, the workflow for this project can be subdevided into two separate areas. 
+	Firstly it is important to extract as many interesting features as possible from the underlying images. \\
+	Only after that, one has enough information to classify the cells.
+
+	
+	\subsection{Feature Engineering}
+	Computer vision contains offers several methods and algorithms to extract different kinds of informations out of an image. 
+	\subsubsection{PHOG}
+asd
+
+	\section{Classification}
+	For the classification we used the basically same algorithm like in the last project. An ExtraTreeClassifier 
+	Scikit-learn GridSearchCV function runs a cross validation based, fitting-performance test over all combinations of possible parameters, which are given in a separate list. The cross validation makes it possible to immediately estimate the precision of a certain configuration. Separete grid searches were performed for each of the classifiers, finally used within the ensemble method. 
+		Of course it is necessary to have a third classifier, which turns the balance when the two first classifiers vote against each other. In our case we have chosen the  GradientBoostingClassifier of scikit-learn. It is itself a boosting and therefore an bagging method. Boosting is a special form of bagging, where the classifiers are called successively. The output of the first classifier is then used as input for the next classifier. This may accelerate the convergence dramatically. 
+	Each weak classifier is a decision tree of fixed size and it is chosen to minimize the loss function of the current model.
+	
+	\section{Lessons Learned} 
+	In this project it became obvious that it is very important to have proper features to work on. Having proper features means not only to extract as many reasonable dimensions from the image as possible, but also to select the most interesting ones.
+
+	Concerning classithat tweaking a single classifier, at some points reached its limit, so that no further progress was achievable by tweaking the parameters. In those cases the combination of multiple classifiers turned out to be the best way to improve the results further. 
+	
+\end{document}
