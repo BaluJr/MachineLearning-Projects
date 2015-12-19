@@ -41,19 +41,19 @@
 
 	
 	\subsection{Feature Engineering}
-	Computer vision contains offers several methods and algorithms to extract different kinds of informations out of an image. 
+	The area of computer vision offers several powerful methods and algorithms to extract different kinds of informations out of an image. The following ones have been taken into account within our reflections.
+
 	\subsubsection{PHOG}
-asd
+	\subsubsection{SIFT: Scale Invariant Feature Transform}
+	This method describes local features in an image....
 
 	\section{Classification}
 	For the classification we used the basically same algorithm like in the last project. An ExtraTreeClassifier 
-	Scikit-learn GridSearchCV function runs a cross validation based, fitting-performance test over all combinations of possible parameters, which are given in a separate list. The cross validation makes it possible to immediately estimate the precision of a certain configuration. Separete grid searches were performed for each of the classifiers, finally used within the ensemble method. 
-		Of course it is necessary to have a third classifier, which turns the balance when the two first classifiers vote against each other. In our case we have chosen the  GradientBoostingClassifier of scikit-learn. It is itself a boosting and therefore an bagging method. Boosting is a special form of bagging, where the classifiers are called successively. The output of the first classifier is then used as input for the next classifier. This may accelerate the convergence dramatically. 
-	Each weak classifier is a decision tree of fixed size and it is chosen to minimize the loss function of the current model.
+	Scikit-learn GridSearchCV function runs a cross validation based, fitting-performance test over all combinations of possible parameters, which are given in a separate list. The cross validation made it possible to immediately estimate the precision of a certain configuration. 
 	
 	\section{Lessons Learned} 
-	In this project it became obvious that it is very important to have proper features to work on. Having proper features means not only to extract as many reasonable dimensions from the image as possible, but also to select the most interesting ones.
+	In this project it became obvious that it is very important to extract proper features. Having proper features means not only to extract as many reasonable dimensions from the image as possible, but also to select the most interesting ones.
 
-	Concerning classithat tweaking a single classifier, at some points reached its limit, so that no further progress was achievable by tweaking the parameters. In those cases the combination of multiple classifiers turned out to be the best way to improve the results further. 
+	Concerning classification, the same aspects as for the last project were valid: Tweaking a single classifier, at some points reached its limit, so that no further progress was achievable by tweaking the parameters and the ensemble ExtraTreeClassifier has been chosen again.
 	
 \end{document}
