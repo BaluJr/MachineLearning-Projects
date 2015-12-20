@@ -46,6 +46,37 @@
 	\subsubsection{PHOG}
 	\subsubsection{SIFT: Scale Invariant Feature Transform}
 	This method describes local features in an image....
+	
+	\subsection{FCC: FREEMAN CHAIN CODE}
+	The segmented images are first smooth out with an averaging filter to remove unncessary noise and threshold to a black and white image. Then the boundaries of the cell nucleus are retrieved as shown in Figure ~\ref{fig:boundary_good}. Subsapling of the boundary (Figure ~\ref{fig:subsampled_good}) is necessary because otherwise the chain code would not be representative of the general boundary. 
+	
+\begin{figure}[!tbp]
+	\centering
+	\subfloat[Boundary]{\includegraphics[width=0.35\textwidth]{boundary_good.png}\label{fig:boundary_good}}
+	\qquad
+	\subfloat[Subsampled boundary]{\includegraphics[width=0.35\textwidth]{subsampled_good.png}\label{fig:subsampled_good}}
+	\caption{Cancer free cell nucleus}
+\end{figure}
+	
+	\begin{figure}[!tbp]
+		\centering
+		\subfloat[Boundary]{\includegraphics[width=0.35\textwidth]{boundary_bad.png}\label{fig:boundary_bad}}
+		\qquad
+		\subfloat[Subsampled boundary]{\includegraphics[width=0.35\textwidth]{subsampled_bad.png}\label{fig:subsampled_bad}}
+		\caption{Cancer cell nucleus} 
+	\end{figure}
+	
+	Chain code are a way of encoding the boundary of an image. The code is composed of a sequence of numbers between 0 and 7. Each of them represents the transition between two consecutive pixels. Figure ~\ref{fig:fcc} explains the code assignment. For example a set up is encoded as a 0, a step digonally rigth/up as a 1 etc. The direction in which the boundary is sweept is not important but it has to be consistent for all the analysed images.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.23\textwidth]{fcc.png}
+		\caption{Freeman chain code bits interpretation}
+		\label{fig:fcc}
+	\end{figure}
+	
+	As seen in Figure ~\ref{fig:boundary_good} and ~\ref{fig:boundary_bad}, the boundary of cancer free cell nucleus are much more similar to a circle than the cancer cells one. 
+
 
 	\section{Classification}
 	For the classification we used the basically same algorithm like in the last project. An ExtraTreeClassifier 
