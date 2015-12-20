@@ -8,14 +8,14 @@ from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest
 
 # Use the number of bins
-INTENSITY_BINS = 0
-SEGMENTED_INTENSITY = False
+INTENSITY_BINS = 10
+SEGMENTED_INTENSITY = True
 FCC = False
 
 if __name__ == "__main__":
 
     # Load data from the train file
-    file_data = open("Project3_FeatureEngineering/data/train_bins"+ str(INTENSITY_BINS) + ("_fcc.csv" if FCC else ".csv"), "rb")
+    file_data = open("Project3_FeatureEngineering/data/train" + ("_segbins" if SEGMENTED_INTENSITY else "_bins") + str(INTENSITY_BINS) + ("_fcc.csv" if FCC else ".csv"), "rb")
     data = np.loadtxt(file_data, delimiter=",")
 
     # Take only the relevant information
@@ -64,4 +64,4 @@ if __name__ == "__main__":
 
     # Write output
     pd.DataFrame({'Id': ids.astype(int), 'Label': y_test.astype(int)})\
-        .to_csv("Project3_FeatureEngineering/results/out"+ str(INTENSITY_BINS) + ("_fcc.csv" if FCC else ".csv"), index=False, columns=['Id', 'Label'])
+        .to_csv("Project3_FeatureEngineering/results/out"+  ("_segbins" if SEGMENTED_INTENSITY else "_bins") + str(INTENSITY_BINS) + ("_fcc.csv" if FCC else ".csv"), index=False, columns=['Id', 'Label'])
