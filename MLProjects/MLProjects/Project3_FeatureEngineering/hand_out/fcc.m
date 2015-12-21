@@ -1,6 +1,4 @@
-function [cc]=fcc(filename)
-
-f = imread(filename);
+function [cc]=fcc(f)
 
 h=fspecial('average',9);
 g=imfilter(f,h,'replicate');

@@ -1,4 +1,4 @@
-function features = process_image(base_path, img_id, b, segbins, fcc)
+function features = process_image(base_path, img_id, b, segbins, pFcc)
 
 % Read the raw image and mask of interesting area.
 pure_png = imread(strcat(base_path, sprintf('%04d', img_id), '_raw.tif'));
@@ -14,7 +14,7 @@ sig_1D = sig_1D / sum(sig_1D);
 
 
 %intensity histograms
-if (b > 0)
+if (segbins)
     grey = gscale(masked_png, 'full8');
     h = histcounts(grey, b);
     exact = histcounts(grey,256);
@@ -26,15 +26,20 @@ else
 end
 
 
+% FCC
+if (pFcc)
+   f = fcc(pure_png) 
+end
+
 % Put all together
 if (b > 0)
-    if (fcc)
+    if (pFcc)
         features = [phog_feat, sig_1D, h, f];
     else
         features = [phog_feat, sig_1D, h];
     end
 else
-    if (fcc)
+    if (pFcc)
         features = [phog_feat, sig_1D, f];
     else
         features = [phog_feat, sig_1D];

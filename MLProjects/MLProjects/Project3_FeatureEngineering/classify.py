@@ -5,10 +5,10 @@ from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.grid_search import GridSearchCV
 from sklearn.decomposition import PCA
-from sklearn.feature_selection import SelectKBest
+from sklearn.feature_selection import SelectKBest, chi2
 
 # Use the number of bins
-INTENSITY_BINS = 10
+INTENSITY_BINS = 70
 SEGMENTED_INTENSITY = True
 FCC = False
 
@@ -24,10 +24,10 @@ if __name__ == "__main__":
 
     # Use ExtraTreesClassifier
     pipeline = Pipeline([#("feature_selection", PCA()),
-                        ("feature_selection", SelectKBest()),
+                        ("feature_selection", SelectKBest(chi2)),
                         ("classify", ExtraTreesClassifier())])
     params = {
-            #'feature_selection__n_components': [30, 40, 45, 50, 55, 60, 70, 80], # for PCA
+            #'feature_selection__n_components': [30, 40, 45, 50, 55, 60, 70, 80,200], # for PCA
             'feature_selection__k': np.linspace(30, 150, 13), # for SelectKBest
             'classify__bootstrap': [False], 
             'classify__class_weight': [None], 
@@ -55,7 +55,7 @@ if __name__ == "__main__":
  
 
     # Load the validation and test data and predict the result
-    file_test_data = open("Project3_FeatureEngineering/data/test_validate_bins" + str(INTENSITY_BINS) + ("_fcc.csv" if FCC else ".csv"), "rb")
+    file_test_data = open("Project3_FeatureEngineering/data/test_validate" + ("_segbins" if SEGMENTED_INTENSITY else "_bins") + str(INTENSITY_BINS) + ("_fcc.csv" if FCC else ".csv"), "rb")
     test_data = np.loadtxt(file_test_data, delimiter=",")
     ids = test_data[:, 0]
     X_test = test_data[:, 1:697 + INTENSITY_BINS]
