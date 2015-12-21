@@ -4,9 +4,9 @@ addpath('./PHOG')
 addpath('./DIPUMToolboxV1.1.3')
 
 % CONFIGURATION ------------
-SEGMENTED_INTENSITY = true;
+SEGMENTED_INTENSITY = false;
 FCC = false;
-INTENSITY_BINS=70:30:100
+INTENSITY_BINS=30:10:100
 % --------------------------
 
 

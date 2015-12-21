@@ -6,11 +6,17 @@ from sklearn.pipeline import Pipeline
 from sklearn.grid_search import GridSearchCV
 from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest, chi2
+from sklearn.linear_model import LassoCV
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import MinMaxScaler 
+from sklearn.preprocessing import StandardScaler 
 
 # Use the number of bins
-INTENSITY_BINS = 70
-SEGMENTED_INTENSITY = True
+INTENSITY_BINS = 50
+SEGMENTED_INTENSITY = False
 FCC = False
+
 
 if __name__ == "__main__":
 
@@ -23,12 +29,13 @@ if __name__ == "__main__":
     X = data[:, 1:697 + INTENSITY_BINS]
 
     # Use ExtraTreesClassifier
-    pipeline = Pipeline([#("feature_selection", PCA()),
-                        ("feature_selection", SelectKBest(chi2)),
+    pipeline = Pipeline([("scaling", MinMaxScaler()),
+                         ("feature_selection", SelectKBest()),
+                         ("feature_selection2", PCA()),
                         ("classify", ExtraTreesClassifier())])
     params = {
-            #'feature_selection__n_components': [30, 40, 45, 50, 55, 60, 70, 80,200], # for PCA
-            'feature_selection__k': np.linspace(30, 150, 13), # for SelectKBest
+            'feature_selection__k':  np.linspace(50, 150, 11), # for SelectKBest
+            'feature_selection2__n_components': [10, 20, 30, 40, 50], # for PCA
             'classify__bootstrap': [False], 
             'classify__class_weight': [None], 
             'classify__criterion': ['gini'], 
@@ -36,9 +43,9 @@ if __name__ == "__main__":
             'classify__max_features': [None], 
             'classify__max_leaf_nodes': [None], 
             'classify__min_samples_leaf': [4,5],
-            'classify__min_samples_split': [3], 
-            'classify__min_weight_fraction_leaf': [0.1], 
-            'classify__n_estimators': [50],
+            'classify__min_samples_split': [3,4], 
+            'classify__min_weight_fraction_leaf': [0.2], 
+            'classify__n_estimators': [40,50,60],
             'classify__n_jobs': [-1], 
             'classify__oob_score': [False], 
             'classify__random_state': [None], 
@@ -47,7 +54,7 @@ if __name__ == "__main__":
         }
 
     # Grid search to find best parameters
-    gs1 = GridSearchCV(pipeline, params, verbose=2, refit=True, cv=5, n_jobs = -1)
+    gs1 = GridSearchCV(pipeline, params, verbose=2, refit=True, cv=10, n_jobs = -1)
     gs1.fit(X, Y)
     print "\n\nBest Score: ", gs1.best_score_
     print "\nWith Parameters: ", gs1.best_params_
